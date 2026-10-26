@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {"id": "cis_it", "region": "cis", "title": "IT и продукт",
+     "channels": ["@forproducts", "@productjobgo", "@geekjobs", "@careerspace", "@it_vakansii_jobs",
+                  "@top_tech_roles", "@it_vacancy_relocation", "@workitkz", "@avito_career", "@it_is_mts"]},
+    {"id": "cis_fintech", "region": "cis", "title": "Финтех и банки",
+     "channels": ["@alfabank_career", "@careersber", "@vtb_career", "@mtsbankcareer", "@ozon_bank_career",
+                  "@careertbc", "@fintech_vacancy", "@fintech_work"]},
+    {"id": "cis_gamedev", "region": "cis", "title": "Геймдев",
+     "channels": ["@rabota_v_gamedeve", "@brogamedev", "@gamedevjob", "@devjobs"]},
+    {"id": "abroad_it", "region": "abroad", "title": "IT, релокация и удалёнка",
+     "channels": ["@remocate", "@vacancies_worldwide", "@opento_dev", "@job_for_relocation", "@relocats",
+                  "@zarubezhom_jobs", "@rfoundersjobs"]},
+    {"id": "abroad_fintech", "region": "abroad", "title": "Финтех и крипто",
+     "channels": ["@fintechvacancies", "@opento_crypto"]},
+    {"id": "abroad_gamedev", "region": "abroad", "title": "Геймдев",
+     "channels": ["@gamedevjobs", "@young_gamedev", "@gamedev_and_tech_vacancy"]}
+  ]
+}

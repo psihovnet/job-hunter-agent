@@ -1,0 +1,4 @@
+python-telegram-bot[job-queue]==21.*
+telethon==1.36.*
+pydantic==2.*
+python-dotenv==1.*

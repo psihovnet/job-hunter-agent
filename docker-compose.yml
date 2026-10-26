@@ -1,0 +1,10 @@
+services:
+  job-hunter:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./config:/app/config
+      - ./state.db:/app/state.db
+      - ./job-hunter.log:/app/job-hunter.log

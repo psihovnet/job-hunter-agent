@@ -1,0 +1,20 @@
+# Секреты: токен бота, API_ID/HASH, chat_id
+.env
+
+# Сессия Telethon = полный вход в Telegram-аккаунт. Никогда не публиковать.
+*.session
+*.session-journal
+
+# Личные данные: история отправленных вакансий, логи с текстами сообщений
+state.db
+*.log
+*.log.*
+
+# Личные настройки (создаются ботом; без них всё работает с пустыми значениями)
+config/tg_channels.json
+config/keywords.json
+config/PAUSED
+
+.venv/
+__pycache__/
+*.pyc
