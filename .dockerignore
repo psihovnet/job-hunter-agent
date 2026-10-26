@@ -1,0 +1,12 @@
+# Секреты и личные данные не должны попадать в образ: .env подаётся через
+# env_file, а config/, state.db и лог монтируются как volume (docker-compose.yml).
+.env
+*.session
+*.session-journal
+state.db
+*.log
+*.log.*
+config/
+.venv/
+__pycache__/
+.git/
